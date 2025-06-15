@@ -2,3 +2,5 @@
 #Based on a combination of what's recommended out there + my personal experiences.
 #The objective is to discover all hidden directories and exploitable information while leaving no stone unturned.
 
+
+  
