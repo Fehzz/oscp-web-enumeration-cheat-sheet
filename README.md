@@ -5,7 +5,9 @@ This is a list of web enumeration tools and commands compiled to thoroughly enum
 **The objective is to discover all hidden directories and exploitable information while leaving no stone unturned.**
 
 # Autorecon
-Autorecon is an easy & convenient one-command tool to perform web enumeration because with just one command, TCP services are enumerated thoroughly on the target. Autorecon uses various Nmap scripts and tools such as **dirbuster** & **Nikto** to do web enumeration. Autorecon is not a quick scan, it will take some time, it could take up to 15-20 minutes or so, which means you may want to get a quicker Nmap scan out of the way to kickstart your enumeration while running Autorecon in the background.
+Autorecon is a clinical web enumeration tool that is very easy to deploy. With just one command, TCP services are enumerated thoroughly on the target. Autorecon uses various Nmap scripts and tools such as **dirbuster** & **Nikto** for web enumeration (if a web service is running at all on the target). 
+
+Autorecon, at least in my experience, can take up to 10 minutes or a little longer. You might want to get a quicker Nmap scan out of the way to kickstart your enumeration as Autorecon does it's thing in the background.
 
 Keep in mind that autorecon is also capable of enumerating UDP but it will *not* perform a UDP scan without **sudo / root privileges**. UDP is not relevant as far as the purpose of this cheat sheet is concerned as we are focused solely on web enumeration.
 
