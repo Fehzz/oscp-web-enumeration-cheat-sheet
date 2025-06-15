@@ -15,4 +15,9 @@ To scan TCP ports:
 Once an HTTP port is discovered, autorecon will run various tools and scans against the target at that specific port:
 ![image](https://github.com/user-attachments/assets/31bce66e-9d81-4396-b0a2-73fab431f37c)
 
+Autorecon will automatically save the results by default into a directory named "results" which will have sub-directories dedicated to each port. In this case, a sub-directory tcp80 is created which will include results from feroxbuster, cURL, Nikto, Nmap and Whatweb.
+
+![image](https://github.com/user-attachments/assets/25a6aa4f-7acd-4031-987a-980586d84835)
+
+
   
