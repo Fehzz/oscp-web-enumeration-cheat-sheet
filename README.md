@@ -19,5 +19,7 @@ Autorecon will automatically save the results by default into a directory named 
 
 ![image](https://github.com/user-attachments/assets/25a6aa4f-7acd-4031-987a-980586d84835)
 
+Autorecon is also able to identify potential exploits, as seen in the _patterns.log file found in the scans sub-directory.
+![image](https://github.com/user-attachments/assets/69e556bc-6c25-4771-a602-ad01ae207464)
 
   
